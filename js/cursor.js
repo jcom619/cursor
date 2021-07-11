@@ -12,7 +12,7 @@ window.addEventListener("mousemove", event => {
       cursorEl.style.display = "none"
    }
    if (document.querySelector(".left-a:hover")) {
-      cursorImageEl.style.transform = `rotate(80deg)`
+      cursorImageEl.style.transform = `rotate(180deg)`
    } else if (document.querySelector(".right:hover")) {
       cursorImageEl.style.transform = `rotate(-90deg)`
    } else {
