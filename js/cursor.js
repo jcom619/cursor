@@ -16,6 +16,6 @@ window.addEventListener("mousemove", event => {
    } else if (document.querySelector(".right:hover")) {
       cursorImageEl.style.transform = `rotate(-90deg)`
    } else {
-      cursorImageEl.style.transform = `rotate(180deg)`
+      cursorImageEl.style.transform = `rotate(90deg)`
    }
 });
