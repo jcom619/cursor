@@ -9,6 +9,7 @@ body {
   padding: 1vh;
   background: rgba(90,0,90,1);
   text-shadow: 1px 1px 4px white;
+  text-align: center;
 }
 
 .left,
